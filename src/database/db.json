@@ -1,0 +1,35 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "thumbnail": "/images/article-1.jpg",
+      "title": "Understanding React Hooks",
+      "content": "React Hooks are functions that let you use state and other React features without writing a class. They were introduced in React 16.8 and have become a fundamental part of modern React development. The most commonly used hooks are useState and useEffect. useState allows you to add state to functional components, while useEffect lets you perform side effects in function components, such as data fetching or subscriptions.",
+      "author": "Jane Doe",
+      "date": "2023-10-01"
+    },
+    {
+      "id": "2",
+      "thumbnail": "/images/article-2.jpg",
+      "title": "A Guide to CSS Flex Layout",
+      "content": "CSS Flexible Box Layout is a layout model that allows you to design complex layouts with ease. It provides a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic. Key properties include display: flex, flex-direction, justify-content, align-items, and flex-wrap. This layout method is particularly useful for creating responsive designs that adapt to different screen sizes.",
+      "author": "John Smith",
+      "date": "2023-09-15"
+    },
+    {
+      "id": "4c5e",
+      "thumbnail": "/images/default_image.png",
+      "title": "تست",
+      "content": "به به ",
+      "author": "پارسا",
+      "date": "2025-09-15"
+    },
+    {
+      "id": "ceb1",
+      "title": "سلام",
+      "content": "تست",
+      "author": "تستستستستستستستستستستستس تستستستستستس تستستستستستس",
+      "date": "2025-09-15"
+    }
+  ]
+}

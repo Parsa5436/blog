@@ -1,27 +1,48 @@
 {
-  "name": "blog",
-  "version": "0.1.0",
+  "name": "modern-blog",
+  "version": "1.0.0",
+  "description": "A modern, responsive blog application built with Next.js 15, TypeScript, and Tailwind CSS",
   "private": true,
+  "keywords": ["nextjs", "blog", "typescript", "tailwindcss", "react"],
+  "author": "Your Name",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "lint:check": "eslint . --ext .ts,.tsx",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "json-server": "json-server --watch src/database/db.json --port 3001",
+    "dev:full": "concurrently \"npm run json-server\" \"npm run dev\"",
+    "clean": "rm -rf .next out",
+    "analyze": "cross-env ANALYZE=true npm run build"
   },
   "dependencies": {
+    "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "react-just-parallax": "^3.1.16"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
-    "@eslint/eslintrc": "^3"
+    "json-server": "^1.0.0-beta.3",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }
