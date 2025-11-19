@@ -68,14 +68,22 @@
 ### 🏠 Home Page
 Beautiful parallax hero section with smooth mouse tracking effects.
 
+![Home Page Screenshot](/images/demo/home-page-screenshot.png)
+
 ### 📚 Blog Listing
 Responsive grid layout showcasing all articles with hover effects.
+
+![Blogs Page Screenshot](/images/demo/blogs-page-screenshot.png)
 
 ### 📝 Article View
 Immersive reading experience with sticky navigation and optimized layout.
 
+![Blog Page Screenshot](/images/demo/blog-page-screenshot.png)
+
 ### ✏️ Create Article
 Clean, validated form with real-time feedback and error handling.
+
+![Create Page Screenshot](/images/demo/create-page-screenshot.png)
 
 ---
 
