@@ -68,22 +68,22 @@
 ### 🏠 Home Page
 Beautiful parallax hero section with smooth mouse tracking effects.
 
-![Home Page Screenshot](/images/demo/home-page-screenshot.png)
+![Home Page Screenshot](/public/images/demo/home-page-screenshot.png)
 
 ### 📚 Blog Listing
 Responsive grid layout showcasing all articles with hover effects.
 
-![Blogs Page Screenshot](/images/demo/blogs-page-screenshot.png)
+![Blogs Page Screenshot](/public/images/demo/blogs-page-screenshot.png)
 
 ### 📝 Article View
 Immersive reading experience with sticky navigation and optimized layout.
 
-![Blog Page Screenshot](/images/demo/blog-page-screenshot.png)
+![Blog Page Screenshot](/public/images/demo/blog-page-screenshot.png)
 
 ### ✏️ Create Article
 Clean, validated form with real-time feedback and error handling.
 
-![Create Page Screenshot](/images/demo/create-page-screenshot.png)
+![Create Page Screenshot](/public/images/demo/create-page-screenshot.png)
 
 ---
 
@@ -267,9 +267,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Support
 
-- 📧 **Email**: your.email@example.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/modern-blog/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/modern-blog/discussions)
+- 📧 **Email**: p.amirabadi85@gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/Parsa5436/blog/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/Parsa5436/blog/discussions)
 
 ---
 
@@ -277,6 +277,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **⭐ Star this repository if you found it helpful!**
 
-Made with ❤️ and ☕ by [Your Name](https://github.com/yourusername)
+Made with ❤️ and ☕ by [Parsa](https://github.com/Parsa5436)
 
 </div>
